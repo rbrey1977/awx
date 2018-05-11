@@ -5,4 +5,4 @@
    user: 
      name: root
      update_password: always 
-     password: 
+     password: DummyPassword
