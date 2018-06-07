@@ -1,0 +1,5 @@
+- lineinfile:
+   path: /etc/sudoers
+   state: present
+   regexp: '^%jaxadmin\s'
+   line: '%jaxadmin ALL=(ALL) NOPASSWD: ALL'
